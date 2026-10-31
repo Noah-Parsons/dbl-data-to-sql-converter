@@ -93,5 +93,4 @@ and User Guide built in.
 - `dblconv/gui.py` is the application window.
 - `dblconv/synth.py` writes synthetic records from a layout for the tests.
 
-See [CHANGELOG.md](CHANGELOG.md) for release history and [PROJECT_NOTES.md](PROJECT_NOTES.md)
-for the original project plan and development log.
+See [CHANGELOG.md](CHANGELOG.md) for release history.
