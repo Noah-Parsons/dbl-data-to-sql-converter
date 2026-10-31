@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dblconv"
+version = "1.0.0"
+description = "Convert legacy DBL fixed-record data files to SQLite and Excel-readable CSV"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Noah Parsons" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+dblconv = "dblconv.batch:main"
+
+[project.gui-scripts]
+dblconv-gui = "dblconv.gui:main"
+
+[tool.setuptools]
+packages = ["dblconv"]
+
+[tool.setuptools.package-data]
+dblconv = ["data/SCHEMA.md", "data/app.ico", "data/DBL Data Converter User Guide.pdf"]

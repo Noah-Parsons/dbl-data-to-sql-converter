@@ -1,0 +1,15 @@
+# PyInstaller Windows version resource for DBL Data Converter
+VSVersionInfo(
+  ffi=FixedFileInfo(filevers=(1, 0, 0, 0), prodvers=(1, 0, 0, 0), mask=0x3f, flags=0x0,
+                    OS=0x40004, fileType=0x1, subtype=0x0, date=(0, 0)),
+  kids=[
+    StringFileInfo([StringTable('040904B0', [
+      StringStruct('FileDescription', 'DBL Data Converter'),
+      StringStruct('FileVersion', '1.0.0'),
+      StringStruct('InternalName', 'DBL Data Converter'),
+      StringStruct('OriginalFilename', 'DBL Data Converter.exe'),
+      StringStruct('ProductName', 'DBL Data Converter'),
+      StringStruct('ProductVersion', '1.0.0')])]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)

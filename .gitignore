@@ -1,0 +1,10 @@
+__pycache__/
+*.sqlite
+soak.log
+.pytest_cache/
+.buildenv/
+build/
+dist/
+*.spec
+Sample data*/
+_update.zip
